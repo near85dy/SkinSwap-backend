@@ -1,0 +1,17 @@
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+
+steam:
+  api:
+    key: 1846798DD73FDC600EAD59C544E660F5
+    url: https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/skinswap
+    username: postgres
+    password: sky123post
+

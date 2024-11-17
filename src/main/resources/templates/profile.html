@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Профиль</title>
+    </head>
+    <body>
+        <h1>Профиль пользователя</h1>
+        <p>Имя: <span th:text="${username}">Имя</span></p>
+        <p>steamid: <span th:text="${steamid}">steamid</span></p>
+        <img th:src="${avatar}"/>
+    </body>
+</html>
